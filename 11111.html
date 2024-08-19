@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieMania</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ff0000;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #1f1c1c;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            padding: 15px;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 0 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #ff0000;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .movie-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .movie-item {
+            background-color: #3a3a3a;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .movie-item:hover {
+            transform: scale(1.05);
+        }
+
+        .movie-item img {
+            width: 100%;
+            height: auto;
+        }
+
+        .movie-item h3 {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff0000;
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        footer {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+            color: #bbb;
+            margin-top: 20px;
+        }
+
+        footer a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MovieMania</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="https://cinesubz.co/movies/">Movies</a>
+        <a href="#">Genres</a>
+        <a href="https://cinesubz.co/tvshows/">TV Shows</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="container">
+         <h2>Welcome to MovieMania</h2>
+        <p>Your ultimate source for the latest movies and reviews.</p>
+
+        <div class="movie-grid">
+            <!-- Movie Item 1 -->
+            <div class="movie-item"> 
+           <img src="web site/photos/23ccbf28137082dc795cf308f74f5ec0.jpg" alt="Movie 1">    
+            <a href="https://cinesubz.co/tvshows/squid-game-2021-sinhala-sub/">     
+            <h3>Squid game</h3>
+            </div>
+           
+            <!-- Movie Item 2 -->
+            <div class="movie-item">
+                <img src="web site/photos/money-heist-tokyo-portrait-40k0dz3e03c0bmjk.jpg" alt="Movie 2">
+                <h3>Money Heist</h3>
+            </div>
+           
+            <!-- Movie Item 2 -->
+            <div class="movie-item">
+                <img src="web site/photos/2ae44379ab68e4b07461a3775072bae6.jpg">
+                <a href="https://cinesubz.co/tvshows/money-heist-2021-sinhala-sub/">
+                <h3>Transformers</h3>
+            </div>
+
+
+            <!-- Add more movie items as needed -->
+            <!-- Movie Item 4 -->
+            <div class="movie-item">
+                <img src="web site/photos/143e5759d81e5b0d4f96bdc5c1d833a9.jpg" alt="Movie 4">
+                <h3>Fast and Furious</h3>
+            </div>
+
+            <!-- Add more movie items here -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 MovieMania. All rights reserved.</p>
+        <p>Follow us on <a href="https://www.youtube.com/">Youtube</a> | <a href="https://www.facebook.com/sil.bro.9400?mibextid=ZbWKwL">Facebook</a></p>
+    </footer>
+</body>
+
+</html>
